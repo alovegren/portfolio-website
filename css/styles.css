@@ -132,8 +132,12 @@ img{
 	justify-content: space-between;
 }
 
-#artdetails{
+#SNslideshow{
+	height: auto;
+	width: 50vw;
+	margin: auto;
 }
+
 /* ---------
 	Footer
    --------- */
