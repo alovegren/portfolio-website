@@ -64,6 +64,27 @@ a:hover {
     color: #f24820;
 }
 
+/* ------
+	Text
+   ------ */
+
+p{
+	color: #88a3f2;
+	font-family: "Quando";
+	text-decoration: none;
+	width: 40vw;
+    float: right;
+    line-height: 1.5em
+}
+/* ----------
+	Birditup
+   ---------- */
+#birditup{
+	max-width: 25vw;
+	height: auto;
+	float: right;
+    margin: 15% 35% 14% 0%;
+}
 /* ----------------
 	Flexbox Gallery
    ---------------- */
@@ -175,6 +196,16 @@ img.signature {
     max-width: 20vw;
     height: auto;
 }
+
+/* ---------------
+	Bird it Up MQ
+   --------------- */
+#birditup{
+	max-width: 35vw;
+	height: auto;
+	float: right;
+    margin: 15% 35% 14% 0%;
+}
 }
 
 /* ------------
@@ -183,7 +214,9 @@ img.signature {
 	buy domain name?
 	lil tab icon
 	about page
-
+	resize images plz
+	put some font fallbacks in .css
+	make a contact pg
 	get gd imgs @  work
    ------------ */
 
