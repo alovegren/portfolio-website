@@ -85,6 +85,33 @@ p{
 	float: right;
     margin: 15% 35% 14% 0%;
 }
+/* -------
+	Video
+   ------- */
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  margin: 2% 0%;
+}
+
+#laurel{
+	height: 7em;
+	width: auto;
+	margin-left: 15%;
+	padding: none;
+}
+
+.anidetails{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.viddetails{
+	display: block;
+    font-family: "Open Sans";
+    font-size: .8em
+}
 /* ----------------
 	Flexbox Gallery
    ---------------- */
