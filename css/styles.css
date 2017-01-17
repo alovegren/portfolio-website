@@ -54,9 +54,10 @@ header{
 .navicon{
 	max-width: 6%;
 	height: auto;
-	margin-top: 4%;
 }
-
+img.aicon{
+	margin-top: 55%
+}
 a:visited {
     text-decoration: none;
 }
@@ -69,13 +70,14 @@ a:hover {
    ------ */
 
 p{
-	color: #88a3f2;
-	font-family: "Quando";
+	font-family: "Open Sans";
 	text-decoration: none;
 	width: 40vw;
     float: right;
-    line-height: 1.5em
+    line-height: 1.5em;
+    margin-top: 2%;
 }
+
 /* ----------
 	Birditup
    ---------- */
@@ -190,12 +192,19 @@ img{
 	Footer
    --------- */
 footer{
-	text-align: center;
-	font-family: "Open Sans";
-	clear: both;
-	padding: 0% 0% 2% 0%;
+    font-family: "Open Sans";
+    color: #88a3f2;
+    padding: 0% 0% 2% 0%;
+    font-size: .75em;
+    margin: 0 auto
 }
 
+footer > p{
+	text-align: center;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+}
 /* ---------------
 	Media Queries
    --------------- */
@@ -235,15 +244,32 @@ img.signature {
 }
 }
 
+/* -------
+	About
+   ------- */
+img#cameo{
+	width: 20vw;
+	height: auto;
+	display: block;
+}
+
+main#about{
+	width: 80vw;
+}
+
+#flexabout{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /* ------------
 	Plz do:
-	center align images on slideshow viewer
 	buy domain name?
 	lil tab icon
 	about page
-	resize images plz
-	put some font fallbacks in .css
-	make a contact pg
-	get gd imgs @  work
+	get gd imgs @ work
+	add alt txt to insta and mail icons
    ------------ */
 
