@@ -1,0 +1,12 @@
+.flexcontainer{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+	padding: 1%;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
