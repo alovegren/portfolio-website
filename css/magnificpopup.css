@@ -3,6 +3,7 @@
 /* Magnific Popup CSS */
 li{
   list-style-type: none;
+  text-decoration: none;
 }
 .mfp-bg {
   top: 0;
