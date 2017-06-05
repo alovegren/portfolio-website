@@ -41,12 +41,14 @@ ul{
 li{
 	margin: 2%;
 	padding: 2%;
+	display: -webkit-box;
 }
 
 nav a{
 	color: #88a3f2;
 	font-family: "Quando";
 	text-decoration: none;
+	line-height: 
 }
 
 header{
@@ -158,10 +160,12 @@ img{
 	margin: 2% 0% 2% 0%;;
 }
 
-
 /* --------------------
 	Slide Nav, Details
    -------------------- */
+title{
+	font-family: "Open Sans";
+}
 .slideshow{
 	height: 80vh;
 	width: auto;
