@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quando');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /* Magnific Popup CSS */
+li{
+  list-style-type: none;
+}
 .mfp-bg {
   top: 0;
   left: 0;
@@ -291,7 +294,7 @@ img.mfp-img {
 .mfp-title {
   font-family: "Open Sans";
   text-decoration: none;
-  width: 80vw;
+  width: 50vw;
   line-height: 1.2em;
   font-size: .8em;
   margin-top: 2%; }
