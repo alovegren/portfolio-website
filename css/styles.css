@@ -3,6 +3,7 @@
    ---------------------- */
 @import url('https://fonts.googleapis.com/css?family=Quando');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body, div, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
 	margin: 0; padding: 0; border: 0;
 }
@@ -46,12 +47,25 @@ li{
 	text-decoration: none;
 }
 
+.projectnames {
+    color: #88a3f2;
+    font-size: .7em;
+    line-height: .01em;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.projectnames a{
+    font-family: "Open Sans";
+    }
+
 nav a{
 	color: #88a3f2;
 	font-family: "Quando";
 	text-decoration: none;
 	line-height: 
 }
+
 
 header{
 	display: inline-block;	
@@ -134,7 +148,7 @@ main{
 	display: flex;
 	flex-flow: row wrap;
     justify-content: flex-end;
-    align-items: stretch;
+    align-items: center;
     align-content: stretch;
     align-self: flex-end;
 }
@@ -308,6 +322,8 @@ main#about{
     align-items: center;
     justify-content: space-around;
 }
+
+
 
 /* ------------
 	Plz do:
