@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audrey Lovegren</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136835964-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136835964-1');
+</script>
+
+<body>
+<p id="test"></p>
+<img id="homepagestaticillos" src="img/position_test.jpg">
+<video autoplay loop id="homepageani">
+  <source src="mp4/home_illo_working.mp4" type="video/mp4">
+</video>
+
+<script>
+var illoWidth = document.getElementById('homepageani').offsetWidth;
+document.getElementById('test').innerHTML = illoWidth;
+document.getElementById('homepagestaticillos').style.width = .26 * illoWidth + 'px' ;
+</script>
+
+</body>
+
+<!-- try picture tag maybe https://www.w3schools.com/css/css_rwd_images.asp !-->
