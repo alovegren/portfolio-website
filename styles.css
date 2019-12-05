@@ -46,8 +46,9 @@ li{
 }
 
 nav a{
-	color: #88a3f2;
-	font-family: "Quando";
+	color: #f75180;
+	font-family: "Raleway Bold";
+	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 
 }
@@ -71,7 +72,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #f24820;
+    color: #8ce5b8;
 }
 
 /* ------
@@ -79,7 +80,7 @@ a:hover {
    ------ */
 
 p{
-	font-family: "Open Sans";
+	font-family: "Frank Ruhl Libre Light";
 	text-decoration: none;
 	width: 40vw;
     float: right;
