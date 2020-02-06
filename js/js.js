@@ -7,11 +7,19 @@ let fitClass = $(".fit")
 var fitTextHeight = fitClass.css("height");
 var fitLineHeight = fitClass.css("line-height");
 
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+console.log(fitTextHeight)
 
-var missySigVertical = 10 + (512/154);
-console.log((((100 - missySigVertical - parseFloat(fitTextHeight))/2)vh));
+// var vh = window.innerHeight * 0.01;
+// document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 
-//  = (100 - missySigVertical - fitTextHeight)/2;
+document.documentElement.style.setProperty('--fitTextHeight', fitTextHeight)
+document.documentElement.style.setProperty('--fitLineHeight', fitLineHeight)
+
+// var fitClasses = document.getElementsByClassName("fit");
+
+// for(var i = 0; i < fitClasses.length; i++) {
+//	fitClasses[i].style.lineHeight = (fitLineHeight);
+//}
+
+//console.log(fitClasses[1].style.lineHeight);

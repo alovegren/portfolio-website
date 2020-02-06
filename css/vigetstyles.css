@@ -22,7 +22,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, dl, dt, dd, img, form, fiel
 }
 
 #logo {
-	width: 8vw;
+	width: 20vh;
 	margin: 5vh;
 
 }
@@ -43,6 +43,7 @@ main {
 .fit {
 	display: inline-block;
     white-space: nowrap;
+    line-height: calc((70 - text / 2);
 }
 
 .inbodysub {
