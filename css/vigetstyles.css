@@ -1,0 +1,51 @@
+/* ----------------------
+	Reset Default Styles
+   ---------------------- */
+@import url('https://fonts.googleapis.com/css?family=Quando');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:bold');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap')
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+
+/* --------
+	Title
+   -------- */
+
+:root {
+	--pink: #ef5080;
+}
+
+#logo {
+	width: 8vw;
+	margin: 5vh;
+
+}
+
+main {
+	font-family: "Frank Ruhl Libre";
+	margin-right: auto;
+ 	margin-left:  auto;
+ 	max-width: 80vw;
+ 	padding-right: 10px;
+ 	padding-left:  10px;
+}
+
+.bigpinktext {
+ 	color: var(--pink);
+}
+
+.fit {
+	display: inline-block;
+    white-space: nowrap;
+}
+
+.inbodysub {
+	display: inline;
+	color: var(--pink);
+}
